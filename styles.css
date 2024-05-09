@@ -1,0 +1,60 @@
+body{
+  padding:0px;
+  margin:0px;
+  background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*zUHFaJFJMHxKemVmc3fsjQ.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 500px;
+  height: 450px;
+  margin: 50px auto;
+  margin-top: 70px;
+  padding: 20px;
+  border: 1px solid #356172;
+  border-radius: 25px;
+  text-align: center;
+  background-color: rgb(224, 236, 235);
+}
+h1{
+  color:rgb(3, 47, 78);
+}
+h3{
+  color:rgb(100, 5, 124);
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 90%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #356172;
+}
+
+select {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #356172;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #14556e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b4755;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
